@@ -8,7 +8,7 @@ FEFACO$rdate = ISOdatetime(FEFACO$YEAR, FEFACO$MON, FEFACO$DAY, FEFACO$HOUR, FEF
 # 
 SPLACO$rdate = ISOdatetime(SPLACO$YEAR, SPLACO$MON, SPLACO$DAY, SPLACO$HOUR, SPLACO$MIN, sec=0, tz="GMT" )
 # # 
-# # America/Denver
+# # America/Denver *
 # 
 FEFACO$LTdate = FEFACO$rdate
 attributes(FEFACO$LTdate)$tzone <- "America/Denver"
